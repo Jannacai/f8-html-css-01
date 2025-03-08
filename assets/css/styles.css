@@ -565,10 +565,14 @@ vd là đường link */
 	width: 28px;
 	height: 28px;
 	color: #000;
+	border-radius: 3px;
+}
+.footer .social-link + .social-link{
+	margin-left: 20px;
 }
 .footer .social a:hover {
 	background-color: rgba(0, 0, 0, 0.2);
-	border-radius: 3px;
+	
 }
 .footer .end {
 	justify-content: space-between;
