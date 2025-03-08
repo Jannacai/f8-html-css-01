@@ -145,9 +145,21 @@ a {
 	line-height: 1.25; /* 125% */
 }
 .client .brand {
-	margin-top: 103px;
+	margin-top: 70px;
 	display: flex;
 	justify-content: space-between;
+}
+.client .brand a {
+	display: flex;
+	align-items: center;
+	padding: 0 42px;
+	height: 91px;
+
+}
+.client .brand a:hover {
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 /* ----------Guides */
 .guides {
@@ -516,7 +528,7 @@ vd là đường link */
 
 .footer .footer-content {
 	display: flex;
-	gap: 185px
+	gap: 185px;
 }
 .footer .para ul {
 	margin-top: 42px;
@@ -527,7 +539,6 @@ vd là đường link */
 	font-size: 1.6rem;
 	font-weight: 400;
 	white-space: nowrap;
-	
 }
 .footer .para h3 {
 	color: #1c1c1d;
@@ -542,21 +553,21 @@ vd là đường link */
 	line-height: 1.5;
 }
 
-.footer .para .social{
+.footer .para .social {
 	display: flex;
 	margin-top: 40px;
 }
 
-.footer .social a{
+.footer .social a {
 	justify-content: center;
 	display: flex;
 	align-items: center;
 	width: 28px;
 	height: 28px;
-	color:#000;
+	color: #000;
 }
-.footer .social a:hover{
-	background-color:rgba(0,0 ,0 , 0.2) ;
+.footer .social a:hover {
+	background-color: rgba(0, 0, 0, 0.2);
 	border-radius: 3px;
 }
 .footer .end {
